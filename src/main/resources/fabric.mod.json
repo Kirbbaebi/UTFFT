@@ -3,12 +3,12 @@
   "id": "utfft",
   "version": "${version}",
   "name": "UTFFT",
-  "description": "",
-  "authors": [],
+  "description": "Use The Full F###ING Texture! Tell Minecraft to let resource packs use the full texture file for GUIs",
+  "authors": ["Kirbbaebi"],
   "contact": {
-    "repo": "https://github.com/Kirby/UTFFT"
+    "repo": "https://github.com/Kirbbaebi/UTFFT/"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/utfft/icon.png",
   "environment": "client",
   "entrypoints": {
