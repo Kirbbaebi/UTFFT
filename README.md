@@ -43,3 +43,6 @@ You might have noticed that we have a place to specify the height and width of a
 
 > [!WARNING]
 > I have not tested using values that dont follow the Minecraft base-16 multiplicative texture system. It might work, but I have no clue as of this moment.
+
+## Potential Conflicts
+I have not tested any conflicts, but this mod could hypothetically conflict with any mod that tries to change the way minecraft does GUI textures. If you find a mod that conflicts, or even a mod that looks like it would conflict but doesnt, please reach out and I can put it on a list within this section.
