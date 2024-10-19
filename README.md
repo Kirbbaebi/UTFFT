@@ -35,3 +35,6 @@ The .properties file for a GUI has 4 things that can be set.
   - If you moved the texture file from the top left, this is the amount of pixels it moved to the right.
 - y_offset
   - If you moved the texture file from the top left, this is the amount of pixels it moved to the bottom.
+
+> [!IMPORTANT]
+> A file that offsets the original texture space HAS to have a .properties file AND have x_offset and y_offset specified, or else the texture will not line up with the real GUI.
