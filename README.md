@@ -38,3 +38,8 @@ The .properties file for a GUI has 4 things that can be set.
 
 > [!IMPORTANT]
 > A file that offsets the original texture space HAS to have a .properties file AND have x_offset and y_offset specified, or else the texture will not line up with the real GUI.
+
+You might have noticed that we have a place to specify the height and width of a texture file. This is because we can make an inventory use a different texture size than the original. For example, you can make an inventory have double the height for extra silly things above and below the GUI.
+
+> [!WARNING]
+> I have not tested using values that dont follow the Minecraft base-16 multiplicative texture system. It might work, but I have no clue as of this moment.
