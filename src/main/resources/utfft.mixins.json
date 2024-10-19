@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.kirbbaebi.utfft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "AbstractFurnaceScreenMixin",
+    "AnvilScreenMixin",
+    "BeaconScreenMixin",
+    "BlastFurnaceScreenMixin",
+    "BrewingStandScreenMixin",
+    "CartographyScreenMixin",
+    "CrafterScreenMixin",
+    "CraftingScreenMixin",
+    "CreativeInventoryScreenMixin",
+    "EnchantingTableScreenMixin",
+    "ForgingScreenMixin",
+    "FurnaceScreenMixin",
+    "Generic3x3ScreenMixin",
+    "GenericContainerScreenMixin",
+    "GrindstoneScreenMixin",
+    "HopperScreenMixin",
+    "HorseScreenMixin",
+    "InventoryScreenMixin",
+    "LoomScreenMixin",
+    "MerchantScreenMixin",
+    "ShulkerBoxScreenMixin",
+    "SmithingScreenMixin",
+    "SmokerScreenMixin",
+    "StonecutterScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

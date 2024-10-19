@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "utfft",
+  "version": "${version}",
+  "name": "UTFFT",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Kirby/UTFFT"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/utfft/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.kirbbaebi.utfft.client.UTFFTClient"
+    ],
+    "main": [
+      "org.kirbbaebi.utfft.UTFFT"
+    ]
+  },
+  "mixins": [
+    "utfft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
