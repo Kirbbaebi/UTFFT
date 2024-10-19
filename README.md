@@ -25,3 +25,13 @@ Using the example above, the structure would look like this:
     - utfft
       - gui
         - inventory.properties
+
+The .properties file for a GUI has 4 things that can be set.
+- width
+  - The width of the texture file
+- height
+  - The height of the texture file
+- x_offset
+  - If you moved the texture file from the top left, this is the amount of pixels it moved to the right.
+- y_offset
+  - If you moved the texture file from the top left, this is the amount of pixels it moved to the bottom.
